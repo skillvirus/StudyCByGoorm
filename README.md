@@ -7,7 +7,7 @@
 
 ---
 + HelloWorld   
-> 생애 첫 C 프로그램 : [HelloWorld.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/000.HelloWorld/HelloWorld.c)   
+> 첫 C 프로그램 : [HelloWorld.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/000.HelloWorld/HelloWorld.c)   
 ---
 + Comment   
 > 주석 사용법 설명 : [Comment.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/001.Comment/Comment.c)    
