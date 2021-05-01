@@ -5,8 +5,8 @@
 
 출처 : 이재범님의 [모두의 코드](https://modoocode.com/) - "씹어먹는 C"
 
-강의용 PPT 1주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xvh_oLUWQ2VbMs8pBnAA?e=05mgdM)   
-강의용 PPT 2주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xviJJ1X_Nq1l2EDTkLkw?e=pAXroC)   
+강의용 PPT 1주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xvh_oLUWQ2VbMs8pBnAA?e=D09XSG)   
+강의용 PPT 2주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xviJMCMOaxU2GtGJfkzg?e=hlFmXZ)   
 강의용 PPT 3주차 :    
 강의용 PPT 4주차 :    
 
