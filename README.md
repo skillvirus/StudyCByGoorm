@@ -45,7 +45,7 @@
 > - if (비교연산자) : [IfCompare.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfCompare.c)  
 > - if (if-else) : [IfElseStatement.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfElseStatement.c)  
 > - if (if-elseif-else) : [IfElseIfStatement.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfElseIfStatement.c)  
-> - if (if VS elseif 차이) : [IfElseIfDiff.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/)  
+> - if (if VS elseif 차이) : [IfElseIfDiff.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfElseIfDiff.c)  
 > - if (평균 계산후 결과 출력) : [IfAverage.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfAverage.c)  
 > - if (&&연산자) : [IfLogicalAnd.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfLogicalAnd.c)  
 > - if (||연산자) : [IfLogicalOr.c](https://github.com/skillvirus/StudyCByGoorm/blob/master/src/005.ConditionalStatement/IfLogicalOr.c)  
