@@ -13,7 +13,8 @@ int main()
     {
         printf("과목 %d : ", i);
         scanf("%d", &score);
-        sum_score = sum_score + score;
+        // sum_score = sum_score + score;
+        sum_score += score;
     }
 
     printf("전체 과목의 평균은 : %.2f \n", sum_score / subject);

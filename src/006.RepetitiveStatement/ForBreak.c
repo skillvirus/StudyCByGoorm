@@ -2,10 +2,11 @@
 int main() 
 {
     int usranswer;
-
+    
     printf("컴퓨터가 생각한 숫자를 맞추어 보세요! \n");
 
-    for (;;) //무한반복
+    // for (;;) //무한반복
+    while(1)
     {
         scanf("%d", &usranswer);
         if (usranswer == 3) 
