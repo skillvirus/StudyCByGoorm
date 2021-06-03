@@ -37,7 +37,7 @@ void get_average(int num_student, int num_subject, int (*scores)[num_student]) {
     for (i = 0; i < num_subject; i++) {
         sum = 0;
         for (j = 0; j < num_student; j++) {
-            sum += arr[i][j];
+            sum += scores[i][j];
         }
         printf("과목 %d 평균 점수 : %d \n", i, sum / num_student);
     }
