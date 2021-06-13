@@ -15,7 +15,8 @@ int IsEmpty(){
 }
 
 int IsFull(){
-    if(top >= MAX_STACK_SIZE - 1) {
+    int temp = top;
+    if (++temp >= MAX_STACK_SIZE) {
         return true;
     }
     else {
@@ -33,31 +34,50 @@ void push(int value){
 }
  
 int pop(){
-    if(IsEmpty() == true) {
-        printf("Stack is Empty. \n");
-    }
+    if (IsEmpty() == true) {
+        printf("Stack is empty \n");
+    } 
     else {
-        return stack[top--];
+        int currentIndex = top;
+        int returnValue = stack[top--];
+        stack[currentIndex] = 0;
+        return returnValue;
     }
 }
  
 int main(){
     
     push(3);
-    push(5);
-    push(12);
+    push(2);
     push(10);
-    push(20);
-    push(100);
+    push(12);
+    push(13);
+    //push(14);
     
-    printf("%d ",pop());
-    printf("%d ",pop());
-    printf("%d ",pop());
-    printf("%d ",pop());
-    printf("%d ",pop());
-    printf("%d ",pop());
+    printf("-----Stack의 POP 전----- \n");
+    printf("배열5 : %d \n", stack[4]);
+    printf("배열4 : %d \n", stack[3]);
+    printf("배열3 : %d \n", stack[2]);
+    printf("배열2 : %d \n", stack[1]);
+    printf("배열1 : %d \n", stack[0]);
     
     printf("\n");
+    
+    printf("%d \n", pop());
+    printf("%d \n", pop());
+    printf("%d \n", pop());
+    printf("%d \n", pop());
+    printf("%d \n", pop());
+    printf("%d \n", pop());
+    
+    printf("\n");
+    
+    printf("-----Stack의 POP 후----- \n");
+    printf("배열5 : %d \n", stack[4]);
+    printf("배열4 : %d \n", stack[3]);
+    printf("배열3 : %d \n", stack[2]);
+    printf("배열2 : %d \n", stack[1]);
+    printf("배열1 : %d \n", stack[0]);
  
     return 0;
 }
