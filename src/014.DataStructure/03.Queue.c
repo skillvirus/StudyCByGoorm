@@ -40,7 +40,9 @@ int get() {
         printf("Queue is Empty. \n");
     else{
         front = (front + 1) % MAX;
-        return queue[front];
+        // return queue[front];
+        printf("%d \n", queue[front]);
+        queue[front] = 0;
     }
 }
  
@@ -50,11 +52,27 @@ int main(){
     put(7);
     put(12);
     
-    printf("%d \n", get());
-    printf("%d \n", get());
-    printf("%d \n", get());
+    printf("-----Queue의 GET 전----- \n");
+    printf("배열3 : %d \n", queue[2]);
+    printf("배열2 : %d \n", queue[1]);
+    printf("배열1 : %d \n", queue[0]);
     
-    get(); //다시 큐를 불러오려고 하면
+    // printf("%d \n", get());
+    // printf("%d \n", get());
+    // printf("%d \n", get());
+    printf("\n");
+    printf("-----Queue의 GET 실행----- \n");
+    get();
+    //get();
+    //get();
+    //get(); //다시 큐를 불러오려고 하면
+    
+    printf("\n");
+    printf("-----Queue의 GET 후----- \n");
+    printf("배열3 : %d \n", queue[2]);
+    printf("배열2 : %d \n", queue[1]);
+    printf("배열1 : %d \n", queue[0]);
+    
     
     return 0;
 }
