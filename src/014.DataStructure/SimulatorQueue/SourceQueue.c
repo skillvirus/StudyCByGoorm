@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
-#define MAX 100
+#include "SimulatorQueue.h"
 
 int front = -1;
 int rear = -1;
-int queue[MAX];
  
 int IsEmpty(void) {
     if(front == rear) { //front와 rear가 같으면 큐는 비어있는 상태 
@@ -38,41 +37,10 @@ void put(int value){
 int get() {
     if(IsEmpty())
         printf("Queue is Empty. \n");
-    else{
+    else {
         front = (front + 1) % MAX;
         // return queue[front];
         printf("%d \n", queue[front]);
         queue[front] = 0;
     }
-}
- 
-int main(){
-    
-    put(4);
-    put(7);
-    put(12);
-    
-    printf("-----Queue의 GET 전----- \n");
-    printf("배열3 : %d \n", queue[2]);
-    printf("배열2 : %d \n", queue[1]);
-    printf("배열1 : %d \n", queue[0]);
-    
-    // printf("%d \n", get());
-    // printf("%d \n", get());
-    // printf("%d \n", get());
-    printf("\n");
-    printf("-----Queue의 GET 실행----- \n");
-    get();
-    //get();
-    //get();
-    //get(); //다시 큐를 불러오려고 하면
-    
-    printf("\n");
-    printf("-----Queue의 GET 후----- \n");
-    printf("배열3 : %d \n", queue[2]);
-    printf("배열2 : %d \n", queue[1]);
-    printf("배열1 : %d \n", queue[0]);
-    
-    
-    return 0;
 }
