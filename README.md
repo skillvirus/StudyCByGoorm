@@ -12,6 +12,7 @@
 강의용 PPT 5주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xviJMIQ7eQ-iyugaVExw?e=CLFw1B)   
 강의용 PPT 6주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xviJQN-67hknrQSLx2jg?e=OLNHl3)   
 강의용 PPT 7주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xviJRBncGjodGJxtpIuw?e=UmLrm8)   
+강의용 PPT 8주차 : [링크](https://1drv.ms/p/s!AvogHfPRl8xviJR_wjXeRMdMgaxrkQ?e=QTyqO1)   
 
 ---
 + HelloWorld   
