@@ -5,7 +5,7 @@
 
 int main() {
     FILE *fp;
-    fp = fopen(FilePath, "w"); //define 키워드 미사용
+    fp = fopen(FilePath, "w");
     
     if (fp == NULL) {
         printf("Write Error!!\n");
